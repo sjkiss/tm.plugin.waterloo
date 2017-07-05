@@ -12,7 +12,7 @@ NewsSource<-function(x, encoding = "UTF-8") {
     #content<-content[-grep('^Company/Organization:', content)]
     #content<-content[-grep('Caption:?', content)]
     # content<-content[-grep('________', content)]
-    #content<-content[grep('.', content)]
+    content<-content[grep('.', content)]
     num <- cumsum(grepl("______________", content))
     content<-split(content, num)
     
