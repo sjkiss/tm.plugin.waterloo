@@ -1,4 +1,4 @@
-readNews<-FunctionGenerator(function(elem, language, id) {
+readNews<-tm::FunctionGenerator(function(elem, language, id) {
   function(elem, language, id) {
     
     # Use elem$content, which contains one item of the 'contents'
