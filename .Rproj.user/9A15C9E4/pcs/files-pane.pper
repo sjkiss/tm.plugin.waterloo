@@ -1,0 +1,9 @@
+{
+    "path" : "~/tm.plugin.waterloo",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

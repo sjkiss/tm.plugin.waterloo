@@ -1,0 +1,10 @@
+Package: tm.plugin.waterloo
+Type: Package
+Title: Import articles from the Waterloo Region Record
+Version: 1.0
+Date: 2015-03-03
+Authors@R: person("Simon", "Kiss", email="skiss@wlu.ca",
+                  role=c("aut", "cre"))
+Description: This package is my package.
+License: CCO
+Imports: tm
